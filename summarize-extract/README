@@ -1,0 +1,9 @@
+Lingua::JA::Summarize::Extract の Java移植です。
+
+String summary = new Extractor().extract("日本語の文章をテキトウに書く。").toString();
+
+で、与えられた文章の中から特徴的な文を抜き出します。
+MeCabなどの形態素解析が要らないのでお手軽に要約したい場合に使えます。
+
+オリジナルにあるPluginのところは実装していません。
+
